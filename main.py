@@ -41,8 +41,8 @@ window.geometry("500x500")
 window.config(bg="#A7C7E7")  # Cor de fundo azul claro
 
 try:
-    img = PhotoImage(file="earth_icon.png")
-    label_img = tk.Label(window, image=img, bg="#A7C7E7")
+    img = PhotoImage
+    label_img = tk.Label(window, image=img, bg="#A7C7E7", width=30, height=30)
     label_img.pack(pady=10)
 except:
     pass
